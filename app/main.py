@@ -1,6 +1,4 @@
 import os
-import subprocess
-from pathlib import Path
 
 def compute_bonus(salary: int) -> int:
     return int(salary * 0.10)
@@ -22,7 +20,6 @@ def test() -> str:
         pass
 
 test()
-
 
 if __name__ == "__main__":
     print("bonus_for_100000", compute_bonus(100000))
