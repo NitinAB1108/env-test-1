@@ -1,11 +1,11 @@
 import os
 import subprocess
 from pathlib import Path
+
 def compute_bonus(salary: int) -> int:
     return int(salary * 0.10)
 
 def load_token() -> str:
-    # Example of something a real app might have in env
     return os.getenv("DEMO_TOKEN", "")
 
 def test() -> str:
