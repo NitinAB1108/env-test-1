@@ -1,6 +1,4 @@
 import os
-import subprocess
-from pathlib import Path
 
 def compute_bonus(salary: int) -> int:
     return int(salary * 0.10)
