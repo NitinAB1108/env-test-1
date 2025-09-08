@@ -23,5 +23,6 @@ def test() -> str:
 
 test()
 
+
 if __name__ == "__main__":
     print("bonus_for_100000", compute_bonus(100000))
